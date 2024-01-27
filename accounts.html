@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="BankDash" />
+    <meta name="author" content="Lika" />
+    <link rel="icon" href="photos/Logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/accounts.css" />
+    <title>BankDash Website</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <div class="sidebar">
+          <img src="photos/Logo.svg" alt="BankDash Logo" />
+          <ul>
+            <li>
+              <img src="photos/homeBlack.svg" alt="home icon" />
+              <a href="index.html">Dashboard</a>
+            </li>
+            <li>
+              <img src="photos/transactions.svg" alt="transactions icon" />
+              <a href="transacrions.html">Transactions</a>
+            </li>
+            <li>
+              <img src="photos/accountsBlue.svg" alt="accounts icon" />
+              <a id="link__selected" href="accounts.html">Accounts</a>
+            </li>
+            <li>
+              <img
+                src="photos/economic-investment.svg"
+                alt="investments icon"
+              />
+              <a href="investments.html">Investments</a>
+            </li>
+            <li>
+              <img src="photos/credit-card.svg" alt="credit-card icon" />
+              <a href="creditCards.html">Credit Cards</a>
+            </li>
+            <li>
+              <img src="photos/loan.svg" alt="Loans icon" />
+              <a href="loans.html">Loans</a>
+            </li>
+            <li>
+              <img src="photos/service.svg" alt="Loans icon" />
+              <a href="services.html">Services</a>
+            </li>
+            <li>
+              <img src="photos/privileges.svg" alt="services icon" />
+              <a href="#">My Privileges</a>
+            </li>
+            <li>
+              <img src="photos/settings.svg" alt="settings icon" />
+              <a href="setting.html">Setting</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="main_content">
+        <div class="header">
+          <h2>Accounts</h2>
+          <div class="header__input">
+            <input
+              type="text"
+              name="text"
+              id="text"
+              placeholder="Search for something"
+            />
+            <img src="photos/settingicon.svg" alt="settings" />
+            <img src="photos/notificationicon.svg" alt="notificationicon" />
+            <img
+              src="photos/pexels-christina-morillo.svg"
+              alt="chridtins morioloo image"
+            />
+          </div>
+        </div>
+
+        <main>
+          <div class="info">
+            <div class="info__cards">
+              <div class="info__cards__balances">
+                <div class="info__cards__balances__sections">
+                  <img src="photos/moneyBagGold.svg" alt="money" />
+                  <div class="info__cards__balances__sections__category">
+                    <span>My Balance</span>
+                    <span>$12,750</span>
+                  </div>
+                </div>
+
+                <div class="info__cards__balances__sections">
+                  <img src="photos/income.svg" alt="money" />
+                  <div class="info__cards__balances__sections__category">
+                    <span>Income</span>
+                    <span>$5,600</span>
+                  </div>
+                </div>
+
+                <div class="info__cards__balances__sections">
+                  <img src="photos/expence.svg" alt="money" />
+                  <div class="info__cards__balances__sections__category">
+                    <span>Expense</span>
+                    <span>$3,460</span>
+                  </div>
+                </div>
+
+                <div class="info__cards__balances__sections">
+                  <img src="photos/totalSaivings.svg" alt="money" />
+                  <div class="info__cards__balances__sections__category">
+                    <span>Total Saving </span>
+                    <span>$7,920</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info__cards__lasttransaction">
+                <h3>Last Transaction</h3>
+                <div class="info__cards__lasttransaction__container">
+                  <div class="info__cards__lasttransaction__container__section">
+                    <div class="green-background">
+                      <img
+                        src="photos/spotifySubscription.svg"
+                        alt="spotify Subscription"
+                      />
+                    </div>
+                    <div
+                      class="info__cards__lasttransaction__container__section__dates"
+                    >
+                      <span>Spotify Subscription</span>
+                      <span>25 Jan 2021</span>
+                    </div>
+                    <span>Shopping</span>
+                    <span>1234 ****</span>
+                    <span>Pending</span>
+                    <span id="minus">-$150</span>
+                  </div>
+
+                  <div class="info__cards__lasttransaction__container__section">
+                    <div class="blue-background">
+                      <img
+                        src="photos/mobileservice.svg"
+                        alt="mobile service"
+                      />
+                    </div>
+                    <div
+                      class="info__cards__lasttransaction__container__section__dates"
+                    >
+                      <span>Mobile Service</span>
+                      <span>25 Jan 2021</span>
+                    </div>
+                    <span>Service</span>
+                    <span>1234 ****</span>
+                    <span>Completed</span>
+                    <span id="bigMinus">-$340</span>
+                  </div>
+
+                  <div class="info__cards__lasttransaction__container__section">
+                    <div class="pink-background">
+                      <img
+                        src="photos/emilywolsonicon.svg"
+                        alt="emilly wilson"
+                      />
+                    </div>
+                    <div
+                      class="info__cards__lasttransaction__container__section__dates"
+                    >
+                      <span>Emilly Wilson</span>
+                      <span>25 Jan 2021</span>
+                    </div>
+                    <span>Transfer</span>
+                    <span>1234 ****</span>
+                    <span>Completed</span>
+                    <span id="plus">+$780</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info__cards__maincard">
+                <div>
+                  <h3>My Cards</h3>
+                  <span>See All</span>
+                </div>
+                <div class="info__cards__maincard__details">
+                  <div class="info__cards__maincard__details__content">
+                    <div
+                      class="info__cards__maincard__details__content__balance"
+                    >
+                      <span>Balance</span>
+                      <span>$5,756</span>
+                    </div>
+                    <img src="photos/Chip_Card.svg" alt="cards chip" />
+                  </div>
+
+                  <div class="info__cards__maincard__details__personalInfo">
+                    <div
+                      class="info__cards__maincard__details__personalInfo-content"
+                    >
+                      <span>CARD HOLDER</span>
+                      <span>Eddy Cusuma</span>
+                    </div>
+
+                    <div
+                      class="info__cards__maincard__details__personalInfo-content"
+                    >
+                      <span>VALID THRU</span>
+                      <span>12/22</span>
+                    </div>
+                  </div>
+
+                  <div class="info__cards__maincard__details__cardInfo">
+                    <span>3778 **** **** 1234</span>
+                    <img src="photos/mastercard.svg" alt="mastercard" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="info__cards__overviewcontainer">
+                <div class="info__cards__overview">
+                  <h3>Debit & Credit Overview</h3>
+                  <div>
+                    <img
+                      src="photos/debitOverwie.svg"
+                      alt="Debit & Credit Overview"
+                    />
+                  </div>
+                </div>
+
+                <div class="info__cards__Sent">
+                  <h3>Invoices Sent</h3>
+
+                  <div class="info__cards__overview__Sent-main">
+                    <div class="info__cards__overview__Sent__container">
+                      <div>
+                        <img src="photos/appleStore.svg" alt="apple Store" />
+                        <div>
+                          <span>Apple Store</span>
+                          <span>5h ago</span>
+                        </div>
+                      </div>
+                      <span class="total">$450</span>
+                    </div>
+
+                    <div class="info__cards__overview__Sent__container">
+                      <div>
+                        <div class="user__Michael">
+                          <img src="photos/userOrange.svg" alt="michael" />
+                        </div>
+                        <div>
+                          <span>Michael</span>
+                          <span>2 days ago</span>
+                        </div>
+                      </div>
+                      <span class="total">$160</span>
+                    </div>
+
+                    <div class="info__cards__overview__Sent__container">
+                      <div>
+                        <div class="user__Station">
+                          <img src="photos/playstation.svg" alt="playstation" />
+                        </div>
+                        <div>
+                          <span>Playstation</span>
+                          <span>5 days ago</span>
+                        </div>
+                      </div>
+                      <span class="total">$1085</span>
+                    </div>
+
+                    <div class="info__cards__overview__Sent__container">
+                      <div>
+                        <div class="user__william">
+                          <img src="photos/emilywolsonicon.svg" alt="William" />
+                        </div>
+                        <div>
+                          <span>William</span>
+                          <span>10 days ago</span>
+                        </div>
+                      </div>
+                      <span class="total">$90</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

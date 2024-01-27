@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="BankDash" />
+    <meta name="author" content="Lika" />
+    <link rel="icon" href="photos/Logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/investments.css" />
+    <title>BankDash Website</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <div class="sidebar">
+          <img src="photos/Logo.svg" alt="BankDash Logo" />
+          <ul>
+            <li>
+              <img src="photos/homeBlack.svg" alt="home icon" />
+              <a href="index.html">Dashboard</a>
+            </li>
+            <li>
+              <img src="photos/transactions.svg" alt="transactions icon" />
+              <a href="transacrions.html">Transactions</a>
+            </li>
+            <li>
+              <img src="photos/accounts.svg" alt="accounts icon" />
+              <a href="accounts.html">Accounts</a>
+            </li>
+            <li>
+              <img
+                src="photos/economic-investmentblue.svg"
+                alt="investments icon"
+              />
+              <a id="link__selected" href="investments.html">Investments</a>
+            </li>
+            <li>
+              <img src="photos/credit-card.svg" alt="credit-card icon" />
+              <a href="creditCards.html">Credit Cards</a>
+            </li>
+            <li>
+              <img src="photos/loan.svg" alt="Loans icon" />
+              <a href="loans.html">Loans</a>
+            </li>
+            <li>
+              <img src="photos/service.svg" alt="Loans icon" />
+              <a href="services.html">Services</a>
+            </li>
+            <li>
+              <img src="photos/privileges.svg" alt="services icon" />
+              <a href="#">My Privileges</a>
+            </li>
+            <li>
+              <img src="photos/settings.svg" alt="settings icon" />
+              <a href="setting.html">Setting</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="main_content">
+        <div class="header">
+          <h2>Investments</h2>
+          <div class="header__input">
+            <input
+              type="text"
+              name="text"
+              id="text"
+              placeholder="Search for something"
+            />
+            <img src="photos/settingicon.svg" alt="settings" />
+            <img src="photos/notificationicon.svg" alt="notificationicon" />
+            <img
+              src="photos/pexels-christina-morillo.svg"
+              alt="chridtins morioloo image"
+            />
+          </div>
+        </div>
+
+        <main>
+          <div class="info">
+            <div class="info__cards">
+              <div class="info__cards__balances">
+                <div class="info__cards__balances__sections">
+                  <img src="photos/moneybag.svg" alt="money" />
+                  <div class="info__cards__balances__sections__category">
+                    <span>Total Invested Amount</span>
+                    <span>$150,000</span>
+                  </div>
+                </div>
+
+                <div class="info__cards__balances__sections">
+                  <img src="photos/investments.svg" alt="money" />
+                  <div class="info__cards__balances__sections__category">
+                    <span>Number of Investments</span>
+                    <span>1,250</span>
+                  </div>
+                </div>
+
+                <div class="info__cards__balances__sections">
+                  <img src="photos/return.svg" alt="money" />
+                  <div class="info__cards__balances__sections__category">
+                    <span>Rate of Return</span>
+                    <span>+5.80%</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info__cards__investmentChart">
+                <div class="info__cards__investmentChart__total">
+                  <h3>Yearly Total Investment</h3>
+                  <div class="info__cards__investmentChart__total__graph">
+                    <img src="photos/yearlyTotal.svg" alt="total graph" />
+                  </div>
+                </div>
+
+                <div class="info__cards__investmentChart__total">
+                  <h3>Monthly Revenue</h3>
+                  <div>
+                    <img src="photos/monthly.svg" alt="total graph" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="info__cards__trending">
+                <div class="info__cards__trending__myinvest">
+                  <h3>My Investment</h3>
+                  <div class="info__cards__trending__myinvest__sections">
+                    <div
+                      class="info__cards__trending__myinvest__sections__content"
+                    >
+                      <div class="bond__sections">
+                        <img
+                          src="photos/appleStorepink.svg"
+                          alt="apple Store"
+                        />
+                        <div>
+                          <span>Apple Store</span>
+                          <span>E-commerce, Marketplace</span>
+                        </div>
+                      </div>
+                      <div class="bond__sections__info">
+                        <span>$54,000</span>
+                        <span>Envestment Value</span>
+                      </div>
+                      <div class="bond__sections__info">
+                        <span id="valuePositive">+16%</span>
+                        <span>Return Value</span>
+                      </div>
+                    </div>
+
+                    <div
+                      class="info__cards__trending__myinvest__sections__content"
+                    >
+                      <div class="bond__sections">
+                        <img
+                          src="photos/samsungmobile.svg"
+                          alt="samsung mobile"
+                        />
+                        <div>
+                          <span>Samsung Mobile</span>
+                          <span>E-commerce, Marketplace</span>
+                        </div>
+                      </div>
+                      <div class="bond__sections__info">
+                        <span>$25,300</span>
+                        <span>Envestment Value</span>
+                      </div>
+                      <div class="bond__sections__info">
+                        <span id="valueNegative">-4%</span>
+                        <span>Return Value</span>
+                      </div>
+                    </div>
+
+                    <div
+                      class="info__cards__trending__myinvest__sections__content"
+                    >
+                      <div class="bond__sections">
+                        <img src="photos/tesla.svg" alt="tesla" />
+                        <div>
+                          <span>Tesla Motors</span>
+                          <span>Electric Vehicles</span>
+                        </div>
+                      </div>
+                      <div class="bond__sections__info">
+                        <span>$8,200</span>
+                        <span>Envestment Value</span>
+                      </div>
+                      <div class="bond__sections__info">
+                        <span class="valuePositive">+25%</span>
+                        <span>Return Value</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="info__cards__stock">
+                  <h3>Trending Stock</h3>
+                  <table>
+                    <tr>
+                      <th>SL No</th>
+                      <th>Name</th>
+                      <th>Price</th>
+                      <th>Return</th>
+                    </tr>
+                    <tr>
+                      <td>01.</td>
+                      <td>Trivago</td>
+                      <td>$520</td>
+                      <td class="positive">+5%</td>
+                    </tr>
+
+                    <tr>
+                      <td>02.</td>
+                      <td>Canon</td>
+                      <td>$480</td>
+                      <td class="positive">+10%</td>
+                    </tr>
+
+                    <tr>
+                      <td>03.</td>
+                      <td>Uber Food</td>
+                      <td>$350</td>
+                      <td class="negative">-3%</td>
+                    </tr>
+
+                    <tr>
+                      <td>04.</td>
+                      <td>Nokia</td>
+                      <td>$940</td>
+                      <td class="positive">+2%</td>
+                    </tr>
+
+                    <tr>
+                      <td>05.</td>
+                      <td>TikTok</td>
+                      <td>$670</td>
+                      <td class="negative">-12%</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

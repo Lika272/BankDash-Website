@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="BankDash" />
+    <meta name="author" content="Lika" />
+    <link rel="icon" href="photos/Logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/loans.css" />
+    <title>BankDash Website</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <div class="sidebar">
+          <img src="photos/Logo.svg" alt="BankDash Logo" />
+          <ul>
+            <li>
+              <img src="photos/homeBlack.svg" alt="home icon" />
+              <a href="index.html">Dashboard</a>
+            </li>
+            <li>
+              <img src="photos/transactions.svg" alt="transactions icon" />
+              <a href="transacrions.html">Transactions</a>
+            </li>
+            <li>
+              <img src="photos/accounts.svg" alt="accounts icon" />
+              <a href="accounts.html">Accounts</a>
+            </li>
+            <li>
+              <img
+                src="photos/economic-investment.svg"
+                alt="investments icon"
+              />
+              <a href="investments.html">Investments</a>
+            </li>
+            <li>
+              <img src="photos/credit-card.svg" alt="credit-card icon" />
+              <a href="creditCards.html">Credit Cards</a>
+            </li>
+            <li>
+              <img src="photos/loanBlue.svg" alt="Loans icon" />
+              <a id="link__selected" href="loans.html">Loans</a>
+            </li>
+            <li>
+              <img src="photos/service.svg" alt="Loans icon" />
+              <a href="services.html">Services</a>
+            </li>
+            <li>
+              <img src="photos/privileges.svg" alt="services icon" />
+              <a href="#">My Privileges</a>
+            </li>
+            <li>
+              <img src="photos/settings.svg" alt="settings icon" />
+              <a href="setting.html">Setting</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <div class="main_content">
+        <div class="header">
+          <h2>Loans</h2>
+          <div class="header__input">
+            <input
+              type="text"
+              name="text"
+              id="text"
+              placeholder="Search for something"
+            />
+            <img src="photos/settingicon.svg" alt="settings" />
+            <img src="photos/notificationicon.svg" alt="notificationicon" />
+            <img
+              src="photos/pexels-christina-morillo.svg"
+              alt="chridtins morioloo image"
+            />
+          </div>
+        </div>
+
+        <main>
+          <div class="info">
+            <div class="info__cards">
+              <div class="info__cards__balances">
+                <div class="info__cards__balances__sections">
+                  <img src="photos/blueuser.svg" alt="user" />
+                  <div class="info__cards__balances__sections__category">
+                    <span>Personal Loans</span>
+                    <span>$50,000</span>
+                  </div>
+                </div>
+
+                <div class="info__cards__balances__sections">
+                  <img src="photos/corploan.svg" alt="money" />
+                  <div class="info__cards__balances__sections__category">
+                    <span>Corporate Loans</span>
+                    <span>$100,00</span>
+                  </div>
+                </div>
+
+                <div class="info__cards__balances__sections">
+                  <img src="photos/businnesloan.svg" alt="money" />
+                  <div class="info__cards__balances__sections__category">
+                    <span>Business Loans</span>
+                    <span>$500,000</span>
+                  </div>
+                </div>
+
+                <div class="info__cards__balances__sections">
+                  <img src="photos/customloan.svg" alt="money" />
+                  <div class="info__cards__balances__sections__category">
+                    <span>Custom Loans</span>
+                    <span>Choose Money</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="info__cards__loanstable">
+                <h3>Active Loans Overview</h3>
+
+                <table>
+                  <tr>
+                    <th>SL No</th>
+                    <th>Loan Money</th>
+                    <th>Left to repay</th>
+                    <th>Duration</th>
+                    <th>Interest rate</th>
+                    <th>Installment</th>
+                    <th>Repay</th>
+                  </tr>
+
+                  <tr>
+                    <td>01.</td>
+                    <td>$100,000</td>
+                    <td>$40,500</td>
+                    <td>8 Months</td>
+                    <td>12%</td>
+                    <td>$2,000 / month</td>
+                    <td><button>Repay</button></td>
+                  </tr>
+
+                  <tr>
+                    <td>02.</td>
+                    <td>$500,000</td>
+                    <td>$250,000</td>
+                    <td>36 Months</td>
+                    <td>10%</td>
+                    <td>$8,000 / month</td>
+                    <td><button>Repay</button></td>
+                  </tr>
+
+                  <tr>
+                    <td>03.</td>
+                    <td>$900,000</td>
+                    <td>$40,500</td>
+                    <td>12 Months</td>
+                    <td>12%</td>
+                    <td>$5,000 / month</td>
+                    <td><button>Repay</button></td>
+                  </tr>
+
+                  <tr>
+                    <td>04.</td>
+                    <td>$50,000</td>
+                    <td>$40,500</td>
+                    <td>25 Months</td>
+                    <td>5%</td>
+                    <td>$2,000 / month</td>
+                    <td><button>Repay</button></td>
+                  </tr>
+
+                  <tr>
+                    <td>05.</td>
+                    <td>$50,000</td>
+                    <td>$40,500</td>
+                    <td>5 Months</td>
+                    <td>16%</td>
+                    <td>$10,000 / month</td>
+                    <td><button>Repay</button></td>
+                  </tr>
+
+                  <tr>
+                    <td>06.</td>
+                    <td>$80,000</td>
+                    <td>$25,500</td>
+                    <td>14 Months</td>
+                    <td>8%</td>
+                    <td>$2,000 / month</td>
+                    <td><button>Repay</button></td>
+                  </tr>
+
+                  <tr>
+                    <td>07.</td>
+                    <td>$12,000</td>
+                    <td>$5,500</td>
+                    <td>9 Months</td>
+                    <td>13%</td>
+                    <td>$500 / month</td>
+                    <td><button>Repay</button></td>
+                  </tr>
+
+                  <tr>
+                    <td>08.</td>
+                    <td>$160,000</td>
+                    <td>$100,800</td>
+                    <td>2 Months</td>
+                    <td>12%</td>
+                    <td>$900 / month</td>
+                    <td><button>Repay</button></td>
+                  </tr>
+
+                  <tr id="total">
+                    <td>Total</td>
+                    <td>$125,0000</td>
+                    <td colspan="3">$750,000</td>
+                    <td colspan="2">$50,000 / month</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
